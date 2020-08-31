@@ -7,7 +7,7 @@ const Cocktail = ({ id, name, image, info, glass }) => {
       <div className="img-container">
         <img src={image} alt={name} />
       </div>
-      <div className="cocktai-footer">
+      <div className="cocktail-footer">
         <h3>{name}</h3>
         <h4>{glass}</h4>
         <p>{info}</p>
