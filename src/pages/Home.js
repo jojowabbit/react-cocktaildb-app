@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <main>
       <SearchForm searchTerm={searchTerm} />
-      <CocktailList cocktails={cocktails} />
+      <CocktailList cocktails={cocktails} loading={loading} />
     </main>
   );
 }
